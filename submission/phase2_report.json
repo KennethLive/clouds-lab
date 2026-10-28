@@ -1,0 +1,30 @@
+{
+  "phase": "2",
+  "environment": {
+    "colab": true
+  },
+  "attention": {
+    "naive_ms": 702.123,
+    "vectorized_ms": 1.093,
+    "speedup": 642.38
+  },
+  "threads": {
+    "1": 2359.631,
+    "2": 2244.31,
+    "4": 2608.841,
+    "8": 2498.574
+  },
+  "devices": {
+    "cpu_ms": 447124.9,
+    "gpu_ms": 12762.5
+  },
+  "training": {
+    "steps": 2000,
+    "final_loss": 1.4905,
+    "param_count": 4935680
+  },
+  "sample": "\n\nWERTEBRSOMPEY:\nTal that warm you, alack.\n\nDUCHES OF AULY:\nIs-shame pretty libers,\nBeing thy way day? thou proune spoke them hole:\nWhy I was had; stany\nFor hund pray runalf, so love thy enderath!\n\nLAD",
+  "model": {
+    "gcs_url": "https://storage.googleapis.com/project-5f0f7e8e-f925-4170-8ff-eurecomgpt/model.safetensors"
+  }
+}
